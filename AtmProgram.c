@@ -13,7 +13,7 @@ void main()
     {
         printf("\n\tForgot PIN!!!\n\tDo you want to quit? Yes ->[1] or No ->[0] ");
         scanf("%d",&getout);
-        forgot = 1;
+        forgot = 0;
         if (getout)
         {
             printf("\n\n\t\t   <<<<< Thanks for using our ATM >>>>>\n\n");
